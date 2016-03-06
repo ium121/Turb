@@ -166,7 +166,6 @@ int main(int argc, char** argv)
 				if ((char)c == 27)
 					break;
 			}
-			//=================Run Sequence==========================// 
 		}
 
 	}
