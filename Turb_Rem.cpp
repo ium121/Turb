@@ -30,7 +30,7 @@ float average2[256][256];
 int main(int argc, char** argv)
 {
 	CvCapture* capture = 0;
-	capture = cvCaptureFromAVI("chimney.mp4");
+	capture = cvCaptureFromAVI("video.avi");
 	cvSetCaptureProperty(capture, CV_CAP_PROP_POS_FRAMES, 0);
 	double x = cvGetCaptureProperty(capture, CV_CAP_PROP_FPS);
 	printf("Frame Rate: %f ", x);
